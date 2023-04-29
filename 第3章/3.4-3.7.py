@@ -31,7 +31,7 @@ while len(names) > 2:
     print(f'抱歉{name},无法邀请你了，下次吧！')
 for i in names:
     print(i+'，你好，我邀请你共进晚餐！')
-#del删除
+#del删除 新版本可以使用names.clear() 实现
 while len(names) > 0:
     del names[len(names)-1]
 print(names)
